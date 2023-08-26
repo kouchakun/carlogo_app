@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 
-classes = ["0","1","2","3","4","5","6","7","8","9"]
+classes = ["テスラ","メルセデスベンツ","ホンダ","トヨタ","レクサス","ポルシェ","日産","フォルクスワーゲン"]
 image_size = 28
 
 UPLOAD_FOLDER = "uploads"
