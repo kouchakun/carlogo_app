@@ -1,3 +1,1 @@
-# flask-mnist-app
-# flask-mnist-app
-# flask-mnist-app
+# carlogo_app
