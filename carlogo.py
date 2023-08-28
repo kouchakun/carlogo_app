@@ -8,7 +8,7 @@ import numpy as np
 
 
 classes = ["テスラ","メルセデスベンツ","ホンダ","トヨタ","レクサス","ポルシェ","日産","フォルクスワーゲン"]
-image_size = 150
+image_size = 28
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
