@@ -8,7 +8,7 @@ import numpy as np
 
 
 classes = ["テスラ","メルセデスベンツ","ホンダ","トヨタ","レクサス","ポルシェ","日産","フォルクスワーゲン"]
-image_size = 28
+image_size = 150
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
@@ -53,3 +53,4 @@ def upload_file():
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 8080))
     app.run(host ='0.0.0.0',port = port)
+    #app.run(debug=True)
